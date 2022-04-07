@@ -21,6 +21,10 @@ yarn dev
 yarn build && yarn start
 ```
 
+## Deployment
+
+Deployed on [Vercel Web](https://my-little-photobook-d7nd7hk7z-anxi0.vercel.app/)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
