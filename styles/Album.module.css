@@ -1,0 +1,32 @@
+.photo {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  min-height: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  margin: 0 100px;
+}
+.Xbutton {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.Xbutton::after {
+  content: "\00d7";
+  font-size: 50pt;
+  line-height: 50px;
+  color: black;
+}
